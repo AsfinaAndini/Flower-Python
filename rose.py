@@ -1,6 +1,6 @@
 import turtle
  
-# Set initial position
+#Set initial position
 turtle.penup ()
 turtle.left (90)
 turtle.fd (200)
@@ -36,4 +36,11 @@ turtle.left (50)
 turtle.circle (150,90)
 turtle.end_fill ()
 
-
+# Petal 1
+turtle.left (150)
+turtle.circle (-90,70)
+turtle.left (20)
+turtle.circle (75,105)
+turtle.setheading (60)
+turtle.circle (80,98)
+turtle.circle (-90,40)
